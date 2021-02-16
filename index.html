@@ -27,21 +27,21 @@
 
     <div class="container" id="start-quiz">
         <h1>Start test</h1>
-        <button id="limited-quiz" onclick="startLimitedQuiz()"> Eksamensscenarie </button><br/>
-        <button id="random-quiz" onclick="startRandomQuiz()"> Uendelig </button>
+        <button id="limited-quiz" onclick="startLimitedQuiz()"> Exam </button><br/>
+        <button id="random-quiz" onclick="startRandomQuiz()"> Infinite </button>
     </div>
 
     <div class="container" id="statistics" style="display: none">
-        <h1>Statistik</h1>
+        <h1>Statistics</h1>
         <p>
-            Timer: <label id="timer">75</label> minutter
+            Timer: <label id="timer">75</label> minutes
         </p>
         <p id="score">
-            Korrekte: <label id="correct">0</label><br/>
-            I alt: <label id="total">0</label><br/>
-            Succesrate: <label id="successRatio">100</label> %
+            Correct: <label id="correct">0</label><br/>
+            Total: <label id="total">0</label><br/>
+            Success rate: <label id="successRatio">100</label> %
         </p>
-        <button id="finish-test" onclick="questionHandler.finishTest()">Afslut test</button>
+        <button id="finish-test" onclick="questionHandler.finishTest()">Finish test</button>
     </div>
 
     <div class="container" id="question-navigation" style="display: none">
@@ -49,16 +49,16 @@
     </div>
 
     <div class="container" id="question-answer" style="display: none">
-        <h1 id="question">Spørgsmål: ...?</h1>
+        <h1 id="question">Question: ...?</h1>
         
-        <button id="option0" onclick="questionHandler.checkAnswer(this)"> Mulighed 0 </button><br/>
-        <button id="option1" onclick="questionHandler.checkAnswer(this)"> Mulighed 1 </button><br/>
-        <button id="option2" onclick="questionHandler.checkAnswer(this)"> Mulighed 2 </button><br/>
-        <button id="option3" onclick="questionHandler.checkAnswer(this)"> Mulighed 3 </button><br/>
-        <button id="option4" onclick="questionHandler.checkAnswer(this)"> Mulighed 4 </button>
+        <button id="option0" onclick="questionHandler.checkAnswer(this)"> Option 0 </button><br/>
+        <button id="option1" onclick="questionHandler.checkAnswer(this)"> Option 1 </button><br/>
+        <button id="option2" onclick="questionHandler.checkAnswer(this)"> Option 2 </button><br/>
+        <button id="option3" onclick="questionHandler.checkAnswer(this)"> Option 3 </button><br/>
+        <button id="option4" onclick="questionHandler.checkAnswer(this)"> Option 4 </button>
         <div id="next-question-button">
             <br/>
-            <button onclick="questionHandler.newQuestion()"> Næste spørgsmål </button>
+            <button onclick="questionHandler.newQuestion()"> Next question </button>
         </div>
     </div>
 </div>

@@ -33,9 +33,9 @@ class QuestionAnswer {
         var header = document.createElement("h1")
         header.innerHTML = questionNumber + ": " + this.question
         var correctAnswer = document.createElement("p")
-        correctAnswer.innerHTML = "Korrekte svar: " + this.correctAnswer
+        correctAnswer.innerHTML = "Correct answer: " + this.correctAnswer
         var givenAnswer = document.createElement("p")
-        givenAnswer.innerHTML = "Dit svar: " + (this.givenAnswer ? this.givenAnswer : "Intet givet")
+        givenAnswer.innerHTML = "Your answer: " + (this.givenAnswer ? this.givenAnswer : "None given")
         
         var container = document.createElement("div")
         container.className = "container"
