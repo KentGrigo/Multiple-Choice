@@ -1,0 +1,18 @@
+questions = [
+    {
+        "question": "Hvad er mikrobiologi?",
+        "correctAnswer": "Biologi af små organismer",
+        "option1": "Biologi for de helt små",
+        "option2": "Biologi for kæmper",
+        "option3": "Biologi af sygdomme",
+        "option4": "Biologi om mikrofibre"
+    },
+    {
+        "question": "Hvad er CPS?",
+        "correctAnswer": "Continuation-passing style",
+        "option1": "Noget på CBS",
+        "option2": "Child-Protection Services",
+        "option3": "Centri Palmin-Stegosaurus",
+        "option4": "Celtic Preservation Sergeant"
+    }
+];

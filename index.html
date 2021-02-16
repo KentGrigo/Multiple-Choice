@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple Choice</title>
+    <link rel="icon" type="image/svg" href="favicon.svg"/>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&display=swap" rel="stylesheet">
+
+    <script src="questions.json"></script>
+    <script src="Colors.js"></script>
+    <script src="Algos.js"></script>
+    <script src="Timer.js"></script>
+    <script src="Statistics.js"></script>
+    <script src="QA.js"></script>
+    <script src="RandomQuestionSelector.js"></script>
+    <script src="LimitedQuestionSelector.js"></script>
+    <script src="QuizSelector.js"></script>
+    <script src="QuestionHandler.js"></script>
+</head>
+<body>
+<div id="outer">
+    <div class="container">
+        <h1>Multiple Choice</h1>
+    </div>
+
+    <div class="container" id="start-quiz">
+        <h1>Start test</h1>
+        <button id="limited-quiz" onclick="startLimitedQuiz()"> Eksamensscenarie </button><br/>
+        <button id="random-quiz" onclick="startRandomQuiz()"> Uendelig </button>
+    </div>
+
+    <div class="container" id="statistics" style="display: none">
+        <h1>Statistik</h1>
+        <p>
+            Timer: <label id="timer">75</label> minutter
+        </p>
+        <p id="score">
+            Korrekte: <label id="correct">0</label><br/>
+            I alt: <label id="total">0</label><br/>
+            Succesrate: <label id="successRatio">100</label> %
+        </p>
+        <button id="finish-test" onclick="questionHandler.finishTest()">Afslut test</button>
+    </div>
+
+    <div class="container" id="question-navigation" style="display: none">
+        <h1>Questions</h1>
+    </div>
+
+    <div class="container" id="question-answer" style="display: none">
+        <h1 id="question">Spørgsmål: ...?</h1>
+        
+        <button id="option0" onclick="questionHandler.checkAnswer(this)"> Mulighed 0 </button><br/>
+        <button id="option1" onclick="questionHandler.checkAnswer(this)"> Mulighed 1 </button><br/>
+        <button id="option2" onclick="questionHandler.checkAnswer(this)"> Mulighed 2 </button><br/>
+        <button id="option3" onclick="questionHandler.checkAnswer(this)"> Mulighed 3 </button><br/>
+        <button id="option4" onclick="questionHandler.checkAnswer(this)"> Mulighed 4 </button>
+        <div id="next-question-button">
+            <br/>
+            <button onclick="questionHandler.newQuestion()"> Næste spørgsmål </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
