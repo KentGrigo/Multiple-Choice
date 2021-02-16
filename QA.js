@@ -11,6 +11,10 @@ class QuestionAnswer {
 
     shuffleOptions() {
         shuffle(this.options)
+        this.givenAnswer = null
+        this.isCorrect = null
+        this.givenAnswerId = null
+
         this.correctAnswerId = this.options.indexOf(this.correctAnswer)
 
         this.option0 = this.options[0]
