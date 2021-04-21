@@ -33,7 +33,7 @@ class HtmlConfigurer {
         this.show('next-question-button')
     }
 
-    showFinishQuiz() {
+    showFinishTest() {
         this.show('finish-test')
     }
 

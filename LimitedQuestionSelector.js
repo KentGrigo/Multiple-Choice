@@ -46,12 +46,10 @@ class LimitedQuestionSelector {
     }
 
     configureHtml() {
-        document.getElementById('start-quiz').style.display = "none"
-        document.getElementById('statistics').style.display = "block"
-        document.getElementById('score').style.display = "none"
-        document.getElementById('question-navigation').style.display = "block"
-        document.getElementById('question-answer').style.display = "block"
-        document.getElementById('next-question-button').style.display = "none"
-        document.getElementById('finish-test').style.display = "block"
+        htmlConfigurer.hideEverything()
+        htmlConfigurer.showStatistics()
+        htmlConfigurer.showQuestionNavigation()
+        htmlConfigurer.showQuestionAnswer()
+        htmlConfigurer.showFinishTest()
     }
 }
