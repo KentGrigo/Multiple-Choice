@@ -40,7 +40,7 @@ class QuestionAnswer {
         correctAnswer.innerHTML = "Correct answer: " + this.correctAnswer
         var givenAnswer = document.createElement("p")
         givenAnswer.innerHTML = "Your answer: " + (this.givenAnswer ? this.givenAnswer : "None given")
-        
+
         var container = document.createElement("div")
         container.className = "container"
         container.appendChild(header)

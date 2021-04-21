@@ -19,7 +19,7 @@ class QuestionHandler {
             let questionSelectorButton = document.getElementById("question-selector-" + (this.questionSelector.currentQuestionNumber + 1))
             questionSelectorButton.style.color = GREY
         }
-        
+
         for (let index = 0; index < 5; index++) {
             let option = document.getElementById('option' + index)
             option.style.color = BLACK
