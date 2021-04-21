@@ -28,7 +28,7 @@ class QuestionAnswer {
 
     giveAnswer(answer) {
         this.givenAnswer = answer
-        this.isCorrect = answer === this.correctAnswer
+        this.isCorrect = answer === this.correctAnswer // TODO: Don't compare strings
         this.givenAnswerId = this.options.indexOf(this.givenAnswer)
         return this.isCorrect
     }

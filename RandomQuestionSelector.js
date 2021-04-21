@@ -40,12 +40,10 @@ class RandomQuestionSelector {
     }
 
     configureHtml() {
-        document.getElementById('start-quiz').style.display = "none"
-        document.getElementById('statistics').style.display = "block"
-        document.getElementById('score').style.display = "block"
-        document.getElementById('question-navigation').style.display = "none"
-        document.getElementById('question-answer').style.display = "block"
-        document.getElementById('next-question-button').style.display = "block"
-        document.getElementById('finish-test').style.display = "none"
+        htmlConfigurer.hideEverything()
+        htmlConfigurer.showStatistics()
+        htmlConfigurer.showScore()
+        htmlConfigurer.showQuestionAnswer()
+        htmlConfigurer.showNextQuestionButton()
     }
 }

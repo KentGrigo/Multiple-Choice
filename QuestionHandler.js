@@ -56,13 +56,9 @@ class QuestionHandler {
 
         this.statistics.checkQuestions(this.questionSelector.questions)
         this.timer.stopTimer()
-        document.getElementById('start-quiz').style.display = "none"
-        document.getElementById('statistics').style.display = "block"
-        document.getElementById('score').style.display = "block"
-        document.getElementById('question-navigation').style.display = "none"
-        document.getElementById('question-answer').style.display = "none"
-        document.getElementById('next-question-button').style.display = "none"
-        document.getElementById('finish-test').style.display = "none"
+        htmlConfigurer.hideEverything()
+        htmlConfigurer.showStatistics()
+        htmlConfigurer.showScore()
 
         this.questionSelector.questions.forEach(
             (answer, index) => 
