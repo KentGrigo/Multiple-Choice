@@ -26,10 +26,10 @@ class QuestionAnswer {
         return this
     }
 
-    giveAnswer(answer) {
-        this.givenAnswer = answer
-        this.isCorrect = answer === this.correctAnswer // TODO: Don't compare strings
-        this.givenAnswerId = this.options.indexOf(this.givenAnswer)
+    giveAnswer(answerIndex) {
+        this.givenAnswerId = answerIndex
+        this.givenAnswer = this.options[this.givenAnswerId]
+        this.isCorrect = this.givenAnswerId === this.correctAnswerId
         return this.isCorrect
     }
 

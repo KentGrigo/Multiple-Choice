@@ -10,8 +10,8 @@ class QuestionHandler {
     }
 
     htmlDecode(input) {
-        var doc = new DOMParser().parseFromString(input, "text/html");
-        return doc.documentElement.textContent;
+        var doc = new DOMParser().parseFromString(input, "text/html")
+        return doc.documentElement.textContent
     }
 
     checkAnswer(element) {
@@ -25,8 +25,8 @@ class QuestionHandler {
             option.style.color = BLACK
         }
 
-        let answer = this.htmlDecode(element.innerHTML)
-        let isAnswerCorrect = this.currentQuestion.giveAnswer(answer)
+        let answerIndex = parseInt(element.value)
+        let isAnswerCorrect = this.currentQuestion.giveAnswer(answerIndex)
         element.style.color = GREY
 
         if (this.questionSelector.hasCheckAnswer()) {
