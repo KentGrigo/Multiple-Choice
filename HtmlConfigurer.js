@@ -1,39 +1,47 @@
 class HtmlConfigurer {
     hideEverything() {
-        document.getElementById('start-quiz').style.display = "none"
-        document.getElementById('statistics').style.display = "none"
-        document.getElementById('score').style.display = "none"
-        document.getElementById('question-navigation').style.display = "none"
-        document.getElementById('question-answer').style.display = "none"
-        document.getElementById('next-question-button').style.display = "none"
-        document.getElementById('finish-test').style.display = "none"
+        this.hide('start-quiz')
+        this.hide('statistics')
+        this.hide('score')
+        this.hide('question-navigation')
+        this.hide('question-answer')
+        this.hide('next-question-button')
+        this.hide('finish-test')
     }
 
     showStartQuiz() {
-        document.getElementById('start-quiz').style.display = "block"
+        this.show('start-quiz')
     }
 
     showStatistics() {
-        document.getElementById('statistics').style.display = "block"
+        this.show('statistics')
     }
 
     showScore() {
-        document.getElementById('score').style.display = "block"
+        this.show('score')
     }
 
     showQuestionNavigation() {
-        document.getElementById('question-navigation').style.display = "block"
+        this.show('question-navigation')
     }
 
     showQuestionAnswer() {
-        document.getElementById('question-answer').style.display = "block"
+        this.show('question-answer')
     }
 
     showNextQuestionButton() {
-        document.getElementById('next-question-button').style.display = "block"
+        this.show('next-question-button')
     }
 
     showFinishQuiz() {
-        document.getElementById('finish-test').style.display = "block"
+        this.show('finish-test')
+    }
+
+    show(id) {
+        document.getElementById(id).style.display = "block"
+    }
+
+    hide(id) {
+        document.getElementById(id).style.display = "none"
     }
 }
