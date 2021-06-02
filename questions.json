@@ -1242,7 +1242,7 @@ questions = [
     },
     {
         "question": "Hvilke af disse udsagn om follikulære dendritiske celler (FDC’er) er rigtigt?",
-        "correctAnswer": "Fastholdelse af antigen på overfalden, så det er frit tilgængeligt for naive B-celler",
+        "correctAnswer": "Fastholdelse af antigen på overfladen, så det er frit tilgængeligt for naive B-celler",
         "option1": "Er helt analoge til egentlige dendritiske celler",
         "option2": " Er ansvarlige for dannelse af follikler",
         "option3": "Endocyterer antigen og præsenterer det efter antigennedbrydning for naive B-celler",
@@ -1252,7 +1252,7 @@ questions = [
         "question": "Hvilke af disse udsagn om follikulære dendritiske celler (FDC’er) er FORKERT?",
         "correctAnswer": "FDC’er fastholde antigener vha. Fc-receptoren for IgG som udtrykkes på celleoverfalden af FCD’erne",
         "option1": "FDC’er fastholder antigener vha. kompelmentreceptoren CR2 som udtrykkes på celleoverfladen af FCD’erne",
-        "option2": " FDC’er endocyterer antigen og præsenterer det efter antigennedbrydning for naive B-celler",
+        "option2": "Har ikke hæmatopoietisk ophav",
         "option3": " FDC’er forlænger den tid, antigenerne befinder sig i de primære follikler (som en slags antigen-velcro)",
         "option4": "FDC’er fastholder hovedsageligt antigener, der i forvejen har aktiveret komplementsystemet, eller som der i forvejen er dannet antistoffer imod",
     },
@@ -1657,7 +1657,7 @@ questions = [
         "option4": "Hyper-IgE-syndrom"
     },
     {
-        "question": "En immundefekt med mangel på fagocytter giver ofte infektion med fagocytter?",
+        "question": "En immundefekt med mangel på fagocytter giver ofte infektion med?",
         "correctAnswer": "Gram-negative bakterier",
         "option1": "Parasitter",
         "option2": "Haemophilus influenzae",
@@ -1725,7 +1725,7 @@ questions = [
         "correctAnswer": "Aktiverer CD8 T-celler ved at virke analog til MHC klasse I molekylet",
         "option1": "Opsonisering direekte ved binding til Fc-receptorer på neutrofile granulocytter eller makrofager",
         "option2": "Antistoffer rettet mod pro-apoptotiske overfladereceptorer",
-        "option3": "Aktivering af komplementsystemet ved den alternative aktiveringsvej og efterfølgende lyse af kræftcellen ved MAC",
+        "option3": "Aktivering af komplementsystemet ved den klassiske aktiveringsvej og efterfølgende lyse af kræftcellen ved MAC",
         "option4": "Antistof-afhængigt-cellemedieret-drab (ADCC) ved at aktivere Fc-receptorer på NK-celler",
     },
     {
@@ -3945,12 +3945,12 @@ questions = [
         "option4": "Bordetella Pertussis"
     },
     {
-        "question": "Hvilken en af disse bakterier er ikke en typisk årsag til øjeninfektion?",
-        "correctAnswer": "Haemophilus Influenzae",
+        "question": "Hvilken en af disse mikroorganismer er ikke en typisk årsag til øjeninfektion?",
+        "correctAnswer": "Cryptococcus neoformans",
         "option1": "Bacillus Cereus",
         "option2": "Staphyloccocus Aureus",
         "option3": "Streptococcus pneumoniae",
-        "option4": "Pseudomonas aeroginosa"
+        "option4": "Pseudomonas aeruginosa"
     },
     {
         "question": "Man ser opkast i forbindelse med genopvarmning og indtag ris med Bacillus Cereus fordi?",
