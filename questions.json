@@ -1274,7 +1274,7 @@ questions = [
     },
     {
         "question": "Hvorhenne finder affinitetsmodning og klasseskift sted? ",
-        "correctAnswer": "I den primære follikel",
+        "correctAnswer": "Henholdsvist i germinalcentret og uden for germinalcenteret",
         "option1": "I germinalcenteret",
         "option2": "På overgangen mellem follikel og T-celle zone",
         "option3": "Mantel-zonen",
@@ -1863,14 +1863,6 @@ questions = [
         "option2": "HAV",
         "option3": "Radies",
         "option4": "HSV-1",
-    },
-    {
-        "question": "Hvilken af følgende virus er der IKKE en levende svækket vaccine imod?",
-        "correctAnswer": "Hepatitis A",
-        "option1": "Hepatitis B",
-        "option2": "Human papilloma virus",
-        "option3": "Varicella Zoster virus",
-        "option4": "Mæslingevirus",
     },
     {
         "question": "Hvilken af følgende virus er der IKKE en inaktiveret vaccine imod?",
