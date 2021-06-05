@@ -2577,7 +2577,7 @@ questions = [
         "option4": "Febrillia",
     },
     {
-        "question": "Hvilken af følgende er IKKE et af de almindelige sygdomsbilleder ved coxsackievirus infektioner?",
+        "question": "Hvilken af følgende er IKKE et af de almindelige sygdomsbilleder ved coxsackievirus B infektioner?",
         "correctAnswer": "Herpangina",
         "option1": "Pleurodynia / Bornholmsk sygdom / devil’s grip",
         "option2": "Aseptisk meningitis",
@@ -3970,10 +3970,10 @@ questions = [
     },
     {
         "question": "Listeria Monocytogenes er en?",
-        "correctAnswer": "Gram positiv coccobacillus ofte lejret I par",
-        "option1": "Gram negativ stav i klaser",
+        "correctAnswer": "Gram positiv fakultativt anaerob stav",
+        "option1": "Gram negativ stav lejret i klaser",
         "option2": "Alfa-hæmolytisk gram positiv diplokok",
-        "option3": "Gram positiv strikt aerob stav",
+        "option3": "Gram positiv strikt aerob kok",
         "option4": "Den har ingen cellevæg fordi den er intracellulær"
     },
     {
