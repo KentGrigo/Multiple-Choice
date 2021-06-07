@@ -2259,10 +2259,10 @@ questions = [
     {
         "question": "Hvilken af følgende er ikke en af de 5 klassiske børne eksemer?",
         "correctAnswer": "Roseola (Human herpesvirus 6)",
-        "option1": "Skoldkopper (Varicella-Zoster-virus)",
-        "option2": "Mæslinger",
+        "option1": "Zoster",
+        "option2": "Mæslinger (rubeola)",
         "option3": "Rubella",
-        "option4": "Lussingesyge (Parvovirus B19)",
+        "option4": "Lussingesyge (exanthema infectiosum)",
     },
     {
         "question": "Hvordan adskiller udslættet som ses i forbindelse VZV-infektion sig fra andre udslæt?",
