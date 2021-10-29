@@ -93,7 +93,8 @@ class QuestionHandler {
     }
 
     updateHtml() {
-        document.getElementById('question').innerHTML = (this.questionSelector.currentQuestionNumber + 1) + ": " + this.currentQuestion.question
+        document.getElementById('question-number').innerHTML = "# " + (this.questionSelector.currentQuestionNumber + 1)
+        document.getElementById('question').innerHTML = this.currentQuestion.question
 
         this.updateOption('option0', this.currentQuestion.option0)
         this.updateOption('option1', this.currentQuestion.option1)

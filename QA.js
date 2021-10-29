@@ -35,7 +35,12 @@ class QuestionAnswer {
 
     generateHtml(questionNumber) {
         var header = document.createElement("h1")
-        header.innerHTML = questionNumber + ": " + this.question
+        header.innerHTML = "# " + questionNumber
+        var question = document.createElement("p")
+        question.innerHTML = this.question
+
+        var spacing = document.createElement("br")
+
         var correctAnswer = document.createElement("p")
         correctAnswer.innerHTML = "Correct answer: " + this.correctAnswer
         var givenAnswer = document.createElement("p")
@@ -44,6 +49,8 @@ class QuestionAnswer {
         var container = document.createElement("div")
         container.className = "container"
         container.appendChild(header)
+        container.appendChild(question)
+        container.appendChild(spacing)
         container.appendChild(correctAnswer)
         container.appendChild(givenAnswer)
 
